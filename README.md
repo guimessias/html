@@ -13,15 +13,6 @@
 
 </sub>
 
-## ⚠️ Aviso importante
-
-> Antes de tudo você pode me ajudar e colaborar, deu bastante trabalho fazer esse repositório e organizar para fazer seu estudo ou trabalho melhor, portanto você pode me ajudar das seguintes maneiras:
-
-- Me siga no [Github](https://github.com/arthurspk)
-- Acesse as redes sociais do [Guia Dev Brasil](https://linktr.ee/guiadevbrasil)
-- Mande feedbacks no [LinkedIn](https://www.linkedin.com/in/arthurspk/)
-- Faça uma doação pelo PIX: arthurcoutinho2@hotmail.com
-
 ## 💡 Nossa proposta
 
 > A proposta deste guia é dar uma ideia sobre o atual panorama e guiá-lo se você estiver confuso sobre qual será o seu próximo aprendizado, sem influenciar você a seguir os 'hypes' e 'trends' do momento. Acreditamos que com um maior conhecimento das diferentes estruturas e soluções disponíveis poderá escolher a ferramenta que melhor se aplica às suas demandas. E lembre-se, 'hypes' e 'trends' nem sempre são as melhores opções.
