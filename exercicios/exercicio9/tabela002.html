@@ -3,100 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>tabelas</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-
         }
         table{
+width: 500px;
            width: 500px; 
-           border-collapse: collapse;
+width: 500px;
+border-collapse: collapse;
+position: relative;
         }
-    td, th{
-        border:1px solid black;
-        padding: 10px;
-    }thead{
-        background-color: gray;
-        color:white;
-    }
-    tbody> tr  :nth-child(odd){
-        background-color: lightgray;
-
-
-    }
-    tbody>tr :nth-child(even){
-        background-color: white;
-    }
-    caption{
-        font-size: 1.5em;
-        font-weight:bold ;
-        padding: 10px;
-        background-color: lightgray;
-
-    }
-    td.num{
-        text-align: right;
-    }
-    thead,tfoot
-{
-    background-color: #383838;
-    color:white
-}
+        td , th{
+            border:1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+               }
+        thead{
+            background-color: rgb(101, 101, 101);
+            color:white;
+        }
+        tbody,tfoot{
+            background-color: #383838;
+            color:white;
+        }
+        thead > tr >th{
+            position: sticky;
+            top:0px;
+            background-color: #383838;
+        }
+       tbody >tr:nth-child(odd){
+            background-color: lightgray;
+            font-weight: bold;
+        }
+        tbody >tr:nth-child(even){
+background-color: lightgray;
+        }
+        td.num{
+            text-align: right;
+        }
     </style>
 </head>
 <body>
-    <H1>uso de tabelas grandes</H1>
+    <h1>uso de tabelas grandes</h1>
     <table>
-        <caption>
-            população das unidades federais
-        </caption>
-        <thead>
-<tr><th>
-    estado
-</th>
-<th>população</th></tr>
-        </thead>
-        <tbody>
+    >
+<thead>
 <tr>
-    <td>
-        são paulo
-    </td>
+    <th scope="col" style="width: 50px;">estado</th>
+    <th scope="col">População</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>São paulo</td>
     <td class="num">45 919 049</td>
 </tr>
-<tr>
-
-    <td>
-        rio de janeiro 
-    </td>
-    <td class="num">
-        17 264 943
-    </td>
-    
+<tr><td>
+    minas gerais
+</td>
+<td class="num">
+    13 398 238
+</td>
 </tr>
-        </tbody>
-        <tfoot>
+<tr>
+<td>rio de janeiro</td>
+<td class="num">17.264.943</td>
+</tr>
+<tr>
+  <td>bahia</td>
+  <td class="num">14.873.064</td>
+</tr>
+<tr>
+    <td>parana</td>
+    <td class="num">11.433.957
+    </td>
+    <tr>
+        <td>goias</td>
+        <td class="num">7.013.354</td>
+    </tr>
+    <tr>
+        <td>rio grande do sul </td>
+        <td class="num">11.483.319</td>
+    </tr>
+    <tr>
+        <td>pernambuco</td>
+        <td class="num">3.189.484</td>
+    </tr>
+    <tr>
+        <td>ceára</td>
+        <td class="num">16.487.187</td>
+    </tr>
+    <td>pará</td>
+    <td class="num">147.78.149</td>
+</tr>
+</tbody>
+<tfoot>
 <tr>
     <th scope="row">
         total de habitantes
     </th>
-    <td>210.145.125</td>
+    <strong>
+        <td class="num">200.489.4781
+    </strong>
+    </td>
+    <caption >população das unidades federativas</caption>
 </tr>
-        </tfoot>
+
+</tfoot>
     </table>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-         Voluptates eveniet, veritatis saepe similique repellat
-          consectetur quaerat. Veniam repellat quaerat, necessitatibus 
-        ex voluptates sunt mollitia reiciendis esse incidunt explicabo obcaecati 
-        iste! Lorem ipsum dolor, sit amet consectetur adipisicing eli.Blanditiisve
-         id architecto voluptatibus cupiditate est molestias, perferendis, facili
-         s voluptas voluptate vero ullam ex possimus
-         similique molestiae cum unde  Lorem ipsum dolor sit, am
-                 et consectetur adipisicing elit. Eius repudiandae perferend
-                 
-                 s dolorem explicabo ipsa necessitatibus ad facilis officia! Soluta omnis cum illo
-          asperiores tenetur sit veritatis ipsam, vero
-           doloribus? Officia? repellendus distinctio.</p>
+    <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio o
+        fficia temporibus, cupiditate labore perspiciatis fugit? 
+        Ex fuga molestiae temporibus quas ratione alias asperiores 
+        totam magnam, veritatis quae fugit ipsum possimus? Lorem ipsum 
+        dolor sit amet, consectetur adipisicing elit. Deserunt, quis 
+        dolor quos repellendus labore ad facere corrupti a minus quam aut
+        m perferendis tenetur molestiae esse iusto eum ducimus provident pariatur.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut nemo ea vel
+          eius quibusdam, beatae assumenda quisquam quaerat placeat exercitationem, 
+          possimus temporibus voluptate nisi quam.
+         Minima aliquid ex aspernatur?    Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Id labore asperiores dicta 
+          debitis saepe animi repellat ipsum unde, laborum cupiditate sed ullam 
+          eveniet minima nam perferendis autem nobis quidem inventore.</P>
+          <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio o
+            fficia temporibus, cupiditate labore perspiciatis fugit? 
+            Ex fuga molestiae temporibus quas ratione alias asperiores 
+            totam magnam, veritatis quae fugit ipsum possimus? Lorem ipsum 
+            dolor sit amet, consectetur adipisicing elit. Deserunt, quis 
+            dolor quos repellendus labore ad facere corrupti a minus quam aut
+            m perferendis tenetur molestiae esse iusto eum ducimus provident pariatur.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut nemo ea vel
+              eius quibusdam, beatae assumenda quisquam quaerat placeat exercitationem, 
+              possimus temporibus voluptate nisi quam.
+             Minima aliquid ex aspernatur?    Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Id labore asperiores dicta 
+              debitis saepe animi repellat ipsum unde, laborum cupiditate sed ullam 
+              eveniet minima nam perferendis autem nobis quidem inventore.</P>
+              <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio o
+                fficia temporibus, cupiditate labore perspiciatis fugit? 
+                Ex fuga molestiae temporibus quas ratione alias asperiores 
+                totam magnam, veritatis quae fugit ipsum possimus? Lorem ipsum 
+                dolor sit amet, consectetur adipisicing elit. Deserunt, quis 
+                dolor quos repellendus labore ad facere corrupti a minus quam aut
+                m perferendis tenetur molestiae esse iusto eum ducimus provident pariatur.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut nemo ea vel
+                  eius quibusdam, beatae assumenda quisquam quaerat placeat exercitationem, 
+                  possimus temporibus voluptate nisi quam.
+                 Minima aliquid ex aspernatur?    Lorem ipsum dolor, sit amet
+                  consectetur adipisicing elit. Id labore asperiores dicta 
+                  debitis saepe animi repellat ipsum unde, laborum cupiditate sed ullam 
+                  eveniet minima nam perferendis autem nobis quidem inventore.</P>
+                  <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio o
+                    fficia temporibus, cupiditate labore perspiciatis fugit? 
+                    Ex fuga molestiae temporibus quas ratione alias asperiores 
+                    totam magnam, veritatis quae fugit ipsum possimus? Lorem ipsum 
+                    dolor sit amet, consectetur adipisicing elit. Deserunt, quis 
+                    dolor quos repellendus labore ad facere corrupti a minus quam aut
+                    m perferendis tenetur molestiae esse iusto eum ducimus provident pariatur.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut nemo ea vel
+                      eius quibusdam, beatae assumenda quisquam quaerat placeat exercitationem, 
+                      possimus temporibus voluptate nisi quam.
+                     Minima aliquid ex aspernatur?    Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit. Id labore asperiores dicta 
+                      debitis saepe animi repellat ipsum unde, laborum cupiditate sed ullam 
+                      eveniet minima nam perferendis autem nobis quidem inventore.</P>
+                      <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio o
+                        fficia temporibus, cupiditate labore perspiciatis fugit? 
+                        Ex fuga molestiae temporibus quas ratione alias asperiores 
+                        totam magnam, veritatis quae fugit ipsum possimus? Lorem ipsum 
+                        dolor sit amet, consectetur adipisicing elit. Deserunt, quis 
+                        dolor quos repellendus labore ad facere corrupti a minus quam aut
+                        m perferendis tenetur molestiae esse iusto eum ducimus provident pariatur.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut nemo ea vel
+                          eius quibusdam, beatae assumenda quisquam quaerat placeat exercitationem, 
+                          possimus temporibus voluptate nisi quam.
+                         Minima aliquid ex aspernatur?    Lorem ipsum dolor, sit amet
+                          consectetur adipisicing elit. Id labore asperiores dicta 
+                          debitis saepe animi repellat ipsum unde, laborum cupiditate sed ullam 
+                          eveniet minima nam perferendis autem nobis quidem inventore.</P>
 </body>
+
 </html>

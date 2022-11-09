@@ -12,24 +12,27 @@
         }
         table{
             border-collapse: collapse;
+            width: 300px;
         }
         td{
             border:1px solid black;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Mesclagem de celulas</h1>
     <tr>
-        <td>A</td>
+        <td colspan="1">A</td>
         <td>B</td> 
         <td>C</td>
     
     </tr>
     <tr>
-        <td>D</td>
+        <td rowspan="3">D</td>
         <td>E</td> 
-        <td>F</td>
+        <td rowspan="2">F</td>
     </tr>
     <tr>
         <td>G</td>
@@ -39,7 +42,7 @@
     <tr>
         <td>J</td>
         <td>L</td> 
-        <td>M</td>
+        <td rowspan="2">M</td>
     </tr>
 </body>
 </html>
