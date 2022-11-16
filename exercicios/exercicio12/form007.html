@@ -7,6 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>exemplo de formulario</h1>
+<form action="cadastro.php" method="post" autocomplete="on"></form>
+<p>
+    <label for="iest">estado</label>
+    <select name="estado" id="iest"><option value="Sp">São paulo</option>
+    <option value="RJ">Rio de janeiro</option>
+    <option value="MG">Minas Gerais</option></select>
+</p>
+<p>
+    <label for="iprof">profissão</label>
+    <input type="text" name="prof" id="iprof" list="lstprof">
+    <datalist id="lstprof" >
+        <option value="adh">administrador</option>
+        <option value="cont">contabilista</option>
+        <option value="adh">administrador</option>
+        <option value="dev">desenvolvedor</option>
+        <option value="prof">professor</option>
+    </datalist>
+</p>
+<p><label for="imsg">mensagem</label> <br>
+<textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui"></textarea>
+</p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+   
 </body>
 </html>
