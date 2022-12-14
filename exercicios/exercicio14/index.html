@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  action="cadastro.php" method="get"autocomplemento="off">
+        <p><label for="inome">nome: </label><input type="text"name="nome" id="inome"></p>
+        <p><label for="isobrenome">sobrenome</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit"value="enviar"></p>
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmass" value="M">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem" value="F">Feminino</label>
+        </fieldset>
+    <fieldset>
+        <legend>Esportes favoritos</legend>
+        <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">basquete</label> <br>
+        <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label> <br>
+        <input type="checkbox" name="esnat" id="iesnat">Natação <br>
+        <input type="checkbox" name="esten" id="iesten">Tênis <br>
+
+        <fieldset>
+            <form action="" method="get" autocomplete="on"></form>
+            <p>
+                <label for="iemail">e-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" >
+            </p>
+
+    </fieldset>
+    <p>
+        <label for="iprof">profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof" >
+            <option value="adh">administrador</option>
+            <option value="cont">contabilista</option>
+            <option value="adh">administrador</option>
+            <option value="dev">desenvolvedor</option>
+            <option value="prof">professor</option>
+        </datalist>
+
+
+
+</body>
+</html>
